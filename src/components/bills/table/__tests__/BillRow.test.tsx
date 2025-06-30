@@ -1,5 +1,6 @@
 import React from "react";
-import { render, screen, fireEvent } from "@testing-library/react";
+import { render, fireEvent } from "@testing-library/react";
+import { screen } from "@testing-library/dom";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import BillRow from "../BillRow";
 import type { Bill } from "../../../../types/oireachtas";
